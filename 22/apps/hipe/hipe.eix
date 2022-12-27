@@ -1,0 +1,6 @@
+%% 
+%% Search data file for hipe 3.19.3
+%% generated May  3, 2022
+%% 
+{"HiPE_app.html", {app, "hipe"}, ["HiPE"]}.
+{notused, application, ["hipe"]}.

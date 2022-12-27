@@ -1,0 +1,32 @@
+---
+layout: patch
+erlang_download_readme: https://erlang.org/download/OTP-23.2.7.5.README
+html: https://github.com/erlang/otp/releases/download/OTP-23.2.7.5/otp_doc_html_23.2.7.5.tar.gz
+html_url: https://github.com/erlang/otp/releases/tag/OTP-23.2.7.5
+man: https://github.com/erlang/otp/releases/download/OTP-23.2.7.5/otp_doc_man_23.2.7.5.tar.gz
+name: 23.2.7.5
+published_at: 2022-06-22T16:06:03Z
+readme: https://github.com/erlang/otp/releases/download/OTP-23.2.7.5/OTP-23.2.7.5.README
+release: 23
+src: https://github.com/erlang/otp/releases/download/OTP-23.2.7.5/otp_src_23.2.7.5.tar.gz
+tag_name: OTP-23.2.7.5
+Applications:
+  ssl-10.2.4.4:
+    pre: "The ssl-10.2.4.4 application can be applied independently of other\n applications on a full OTP 23 installation."
+    post: "Full runtime dependencies of ssl-10.2.4.4: crypto-4.2, erts-10.0,\n inets-5.10.7, kernel-6.0, public_key-1.8, stdlib-3.12"
+    tickets:
+      OTP-18145:
+        release_note: "Improved handling of unexpected messages during the handshake, taking the right action for unexpected messages.\n\n"
+        type: " --- Fixed Bugs and Malfunctions ---"
+        Applications: "ssl"
+Application: ssl-10.2.4.4
+Date: 2022-06-22
+GitTag: OTP-23.2.7.5
+PatchPackage: OTP 23.2.7.5
+Predecessor: OTP 23.2.7.4
+Release: 23
+Seqnum: 
+System: OTP
+TroubleReportId: OTP-18145
+---
+## OTP-23.2.7.5
